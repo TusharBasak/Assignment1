@@ -14,7 +14,7 @@
     width: 70px;
     
 }
-ul {
+.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -29,13 +29,13 @@ ul {
   
   
   
-li {
+.navbar li {
     float: left;
     /* Add a gray right border to all list items, except the last item (last-child) */
     border-right: 1px solid #bbb;
   }
 
-  li a {
+  .navbar li a {
     display: block;
     color: white;
     text-align: center;
@@ -44,7 +44,7 @@ li {
   }
 
   /* Change the link color to #111 (black) on hover */
-li a:hover {
+.navbar li a:hover {
     background-color: #111;
   }
 
@@ -72,19 +72,28 @@ li a:hover {
 
 }
 .sofia{
+    color: red;
+    /* text shaddow */
+    text-shadow: 2px 2px #ff0000; 
     font-family: "Sofia", sans-serif;
     font-size: 30px;
 }
 .iubarrowbackground{
     height: 400px;
     width: 600px;
-    border-radius: 10px;
+    border-radius: 8px;
     margin: 50px;
 }
 
 .footer{
     text-align: center;
     color: red;
+     /* text shaddow */
+     text-shadow: 2px 2px #ff0000; 
     font-size: large;
     font-family: "Sofia";
+}
+
+.academicprograms li a{
+    text-decoration: navy;
 }
