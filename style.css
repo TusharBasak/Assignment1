@@ -3,6 +3,10 @@
     display: grid;
     grid-template-columns: 1fr 3fr;
     background-color: #EDF1FF;
+    /* make it sticky navbar */
+    position: fixed;
+  
+    width: 80;
 
 }
 .iubarrow{
@@ -17,9 +21,7 @@ ul {
     overflow: hidden;
     background-color: #333;
     /* make it sticky navbar */
-    position: fixed;
-  top: 30;
-  width: 80;
+  
   }
 
 
@@ -54,4 +56,35 @@ li a:hover {
 .navbar{
     font-family: "Audiowide", sans-serif;
 
+}
+
+.iubimage{
+    height: 300px;
+    width: 400px;
+    border-radius: 15px;
+    margin: 50px;
+}
+
+.iubinfo{
+    display: flex;
+    padding: 100px;
+    
+
+}
+.sofia{
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+}
+.iubarrowbackground{
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+.footer{
+    text-align: center;
+    color: red;
+    font-size: large;
+    font-family: "Sofia";
 }
