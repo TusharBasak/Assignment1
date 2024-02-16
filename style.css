@@ -96,4 +96,20 @@
 
 .academicprograms li a{
     text-decoration: navy;
+    
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.image2{
+    height: 50px;
+    width: 30px;
+    border-radius: 9px;
+}
+
+.tirang{
+    font-family: "Trirong";
 }
