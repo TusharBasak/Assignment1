@@ -5,8 +5,10 @@
     background-color: #EDF1FF;
     /* make it sticky navbar */
     position: fixed;
-  
-    width: 50;
+    width: auto;
+    
+    
+    
 
 }
 .iubarrow{
@@ -41,6 +43,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size:smaller;
   }
 
   /* Change the link color to #111 (black) on hover */
