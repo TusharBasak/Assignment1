@@ -20,7 +20,7 @@
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    /* make it sticky navbar */
+   
   
   }
 
@@ -64,7 +64,7 @@
     border-radius: 15px;
     margin: 50px;
 }
-
+/* using flex */
 .iubinfo{
     display: flex;
     padding: 100px;

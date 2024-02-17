@@ -5,9 +5,13 @@ table, th, td {
   table {
     width: 100%;
   }
-
+  
+/* making even rows different colors */
   tr:nth-child(even) {background-color: #f2f2f2;}
+/* adding hover effect */
   tr:hover {background-color: coral;}
+
+  /* giving table head green color and font color white */
   th {
     background-color: #04AA6D;
     color: white;
